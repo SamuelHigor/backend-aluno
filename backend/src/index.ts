@@ -1,11 +1,12 @@
 import "reflect-metadata";
 import { createConnection } from "typeorm";
-import * as express from "express";
+import express from "express";
 import * as bodyParser from "body-parser";
-import * as cors from 'cors';
+import cors from 'cors';
 import * as morgan from 'morgan';
 import routes from "./routes";
 import { log } from "console";
+
 
 require("dotenv").config();
 
